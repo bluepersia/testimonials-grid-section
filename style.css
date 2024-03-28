@@ -8,32 +8,38 @@
 html {
     font-size: 13px;
 }
-body {
-    font-family: "Barlow Semi Condensed", sans-serif;
-}
-
-
-
 * {
     margin: 0;
     box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-content: center;
+}
+
+
+.testimonials {
+    font-family: "Barlow Semi Condensed", sans-serif;
     color: var(--color-3);
 }
 
-.heading-1 
+
+
+
+.testmonial_title
 {
     font-size: 1.53rem;
     font-weight: 600;
     line-height: auto;
 }
 
-.heading-2 
+.testmonial_name
 {
     font-size: 1rem;
     font-weight: 500;
     line-height: 1;
 }
-.heading-3 
+.testmonial_pos
 {
     font-size: .84rem;
     font-weight: 500;
@@ -41,7 +47,7 @@ body {
     opacity: 50%;
 }
 
-.body
+.testimonial_body
 {
     font-weight: 500;
     line-height: 1.38;
