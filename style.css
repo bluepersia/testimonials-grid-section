@@ -1,0 +1,53 @@
+:root 
+{
+    --color-1: hsl(263, 55, 52);
+    --color-2: hsl(217, 19, 35);
+    --color-3: hsl(0, 0, 100);
+    --color-4: hsl(219, 29, 14);
+}
+html {
+    font-size: 13px;
+}
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--color-3);
+}
+
+.heading-1 
+{
+    font-size: 1.53rem;
+    font-weight: 600;
+    line-height: auto;
+}
+
+.heading-2 
+{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1;
+}
+.heading-3 
+{
+    font-size: .84rem;
+    font-weight: 500;
+    line-height: 1;
+    opacity: 50%;
+}
+
+.body
+{
+    font-weight: 500;
+    line-height: 1.38;
+    opacity: 70%;
+}
+
+.testmonial.light {
+    color: var(--color-2);
+}
